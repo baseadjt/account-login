@@ -1,0 +1,12 @@
+const express = require ('express');
+const router = express.Router();
+
+
+
+router.get('/', (req, res) => {
+
+    res.send('Route Index Working');
+
+});
+
+module.exports =router
